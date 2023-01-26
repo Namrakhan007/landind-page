@@ -1,0 +1,120 @@
+#title{
+     background-color: palevioletred;
+     text-align: center;
+}
+h1 {
+color:white;
+}  
+.container-fluid{
+     padding: 3% 15%;
+}
+
+body{
+     font-family: 'Montserrat';
+}
+.navbar-brand{
+     font-family: "Ubuntu";
+     font-size: 2.5rem;
+     font-weight: bold;
+}
+.nav-link{
+     font-size: 1.2rem;
+     font-family: "Montserrat-light";
+}
+.navbar{
+     padding: 0 0 rem;
+}
+.dnld-button{
+     margin: 5% 3% 5% 0%;
+}
+.rotate20{
+
+     /* -webkit-transform:rotate(20deg);  
+     -moz-transform: rotate(20deg);  
+     -ms-transform: rotate(20deg);  
+     -o-transform: rotate(20deg);  
+     transform: rotate(20deg);   */
+     transform: rotate(20deg);
+     
+}
+#features{
+     padding: 7% 14%;
+     background-color: #fff;
+     text-align: center;
+     position: relative;
+     z-index: -1;
+}
+h3{
+     font-weight: bold;
+
+}
+p{
+     color: grey;
+     font-weight: lighter;
+}
+#fas{
+     color: rgb(240, 81, 67);
+     margin-bottom: 5px;
+}
+.loveDog,.testimonial-text{
+     text-align: center;
+}
+.testi{
+     background-color: rgb(231, 128, 99);
+}
+.img1,.img2,.img3,.img4{
+    width: 100%;
+    padding: 30px 20px 30px 20px;
+}
+#press{
+     padding:7% 15% ;
+     text-align:center;
+     padding-bottom:3%;
+     /* background-color:rgb(231, 128, 99); */
+}.dog,.testimonial-image{
+  border-radius:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   width :10%;
+   text-align:center;
+   color:#fff;
+  
+}
+.loveDog,.testimonial-text{
+     padding:7% 15% ;
+     color: white;
+     text-size-adjust: 300px;
+}
+.carousel-item{
+     padding:7% 15%;
+}
+#pricing{
+     padding: 100px;
+     text-align: center;
+}
+.pricing-col{
+padding: 5% 2%;
+}
+@media (max-width:1028px){
+     #title{
+          text-align: center;
+     }
+     .rotate20{
+          position: static;
+          transform: rotate(0);
+     }
+}
+#cta{
+     background-image: linear-gradient(to bottom right, rgb(245, 120, 79), rgb(225, 196, 80));
+     color: #fff;
+     text-align: center;
+     padding: 5px 4px;
+     border-radius: 15px;
+     border: 1px solid orangered;
+   }
+#footer{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+}
+    
